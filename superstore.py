@@ -12,6 +12,10 @@ st.set_page_config(page_title='Analyse du Marché',page_icon=":bar_chart",layout
 st.title(" :bar_chart: Mon Dash bord")
 # st.markdown("<style>div.block-container{padding-top:1rem;}</style>",unsafe_allow_html=True)
 
+# Définir le répertoire de travail au même endroit que le fichier Python
+script_dir = os.path.dirname(os.path.abspath(__file__))
+os.chdir(script_dir)
+
 # Chargement du fichier
 fl = st.file_uploader(":file_folder: Veuillez charger le fichier",type = (["csv","txt","xlsx","xls"]))
 if fl is not None:
