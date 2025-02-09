@@ -8,7 +8,6 @@ Ce projet est une application **Streamlit** interactive permettant d’analyser 
 - **Python** (pandas, numpy, matplotlib, seaborn)  
 - **Streamlit** (interface interactive)  
 - **Plotly** (visualisations avancées)  
-
 ## 📊 Fonctionnalités  
 - Exploration et chargement des données  
 - Graphiques interactifs et filtres personnalisés  
